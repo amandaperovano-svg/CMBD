@@ -13,6 +13,6 @@ Criação das tabelas:
   - Fornecedores;
   - Compras.
 
-O projeto possui um cóigo fonte revisado e documentado.
+O projeto possui um código fonte revisado e documentado.
 
 Autor: Amanda Cardoso
