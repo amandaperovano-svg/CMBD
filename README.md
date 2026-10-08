@@ -1,18 +1,26 @@
-** Projeto Banco de dados de um Sistema de Vendas **
+CONTEXTUALIZAÇÃO
 
-Este projeto foi desenvolvido para a criação de um banco de dados relacional 
-aplicado a um Sistema de Vendas.
+Uma empresa deseja organizar melhor seus dados de vendas. Atualmente, as informações estão dispersas em planilhas e
+não há um sistema centralizado para consultas rápidas. A direção decidiu criar um banco de dados relacional
+para armazenar dados de clientes, produtos e pedidos, permitindo análises mais eficientes e relatários confiáveis.
 
-A primeira parte do projeto contém a representação do modelo DB atravás de
-um diagrama de entidade-relacionamento
+DESAFIO
 
-Criação das tabelas: 
-  - Clientes;
-  - produtos;
-  - Pedidos;
-  - Fornecedores;
-  - Compras.
+Implementar um banco de dados em SQL que atenda às necessidades da empresa. O desafio envolve:
+-modelagem das tabelas necessárias (Clientes, Produtos, Pedidos).
+-Criação das tabelas com chaves primárias e estrangeiras.
+-inserção de dados fictícios para simular o funcionamento da loja.
 
-O projeto possui um código fonte revisado e documentado.
+-consultas SQL que respondam às seguintes perguntas:
+-Quais clientes realizaram mais compras?
+-Qual produto mais vendido no último mês?
+-Qual o valor total de vendas por cliente?
+-Listar os pedidos que ultrapassam determinado valor.
 
-Autor: Amanda Cardoso
+RESULTADOS ESPERADOS
+
+-Um banco de dados funcional criado em SQL que poderá ser utilizado em aplicações reais.
+-compreender como funcionam as relações entre as tabelas de um banco de dados.
+-Criar Scripts de inserção e exclusão de dados
+-Um conjunto de consultas SQL que respondem às perguntas propostas
+-Empregar técnicas de normalização dos dados
